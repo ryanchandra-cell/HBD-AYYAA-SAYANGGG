@@ -223,15 +223,14 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi,
+    const fullMessage = `Hi Ayya,
 
 Happy Birthday!
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
-
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
-
-I love you so much! 💕`;
+Selamat ulang tahun ayya. Semoga kamu selalu sehat, bahagia, dan dikelilingi oleh hal-hal baik. Terima kasih sudah jadi bagian penting dalam hidupku.
+Hari ini kamu bertambah usia, dan aku bersyukur bisa merayakannya bareng kamu. Semoga semua impian dan rencana kamu dimudahkan, dan aku bisa terus jadi orang yang nemenin kamu mewujudkannya.
+Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih wlee).
+I love you so much ayya! 💕`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +265,8 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hi Ayya,<br><br>Happy Birthday!<br><br> Selamat ulang tahun ayya. Semoga kamu selalu sehat, bahagia, dan dikelilingi oleh hal-hal baik. Terima kasih sudah jadi bagian penting dalam hidupku.
+Hari ini kamu bertambah usia, dan aku bersyukur bisa merayakannya bareng kamu. Semoga semua impian dan rencana kamu dimudahkan, dan aku bisa terus jadi orang yang nemenin kamu mewujudkannya.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih wlee).<br><br>I love you so much ayya! 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -322,7 +322,7 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Our First Date 💕',
+            text: ' Photo Ayya💕',
             image: './images/photo1.jpg'
         },
         {
@@ -330,19 +330,19 @@ function startPhotoShow() {
             image: './images/photo2.jpg'
         },
         {
-            text: 'Adventure Time 🌟',
+            text: 'PhotoBooth 🌟',
             image: './images/photo3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
+            text: 'PhotoBooth ❤️',
             image: './images/photo4.jpg'
         },
         {
-            text: 'Sweet Memories 🥰',
+            text: 'Ayya Moment🥰',
             image: './images/photo5.jpg'
         },
         {
-            text: 'Laugh Together 😂',
+            text: 'Ayya Moment 😂',
             image: './images/photo6.jpg'
         },
         {
